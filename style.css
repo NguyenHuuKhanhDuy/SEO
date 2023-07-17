@@ -1,0 +1,45 @@
+input[type="text"] {
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    display: block;
+}
+#inputText {
+    white-space: nowrap;
+overflow: hidden;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 56, 86);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: rgb(201, 46, 70) 0px -10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+  }
+  
+  button:hover {
+    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+  }
+  
+  button:active {
+    background-color: rgb(255, 56, 86);
+   /*50, 168, 80*/
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+  }
+
+.alert {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: none;
+  }
